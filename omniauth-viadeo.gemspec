@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/pasta/omniauth-viadeo"
   s.summary     = %q{Viadeo strategy for OmniAuth.}
   s.description = %q{Viadeo strategy for OmniAuth.}
-
+  s.licenses    = ['MIT']
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
